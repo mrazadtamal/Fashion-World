@@ -42,20 +42,20 @@ const Navbar = () => {
           Book Table
         </a>
       </div>
-      <div className="app__navbar-smallscreen">
+      <div className="app__navbar-smallScreen">
         <GiHamburgerMenu
           color="#fff"
           fontSize={27}
           onClick={() => setToggleMenu(true)}
         />
         {toggleMenu && (
-          <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
+          <div className="app__navbar-smallScreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu
               fontSize={27}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
-            <ul className="app__navbar-smallscreen_links">
+            <ul className="app__navbar-smallScreen_links">
               <li>
                 <a href="#home" onClick={() => setToggleMenu(false)}>
                   Home
