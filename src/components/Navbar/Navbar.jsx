@@ -15,6 +15,7 @@ const Navbar = () => {
           }
           alt="app__logo"
         />
+        <h1 >Azad</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
@@ -42,6 +43,10 @@ const Navbar = () => {
           Book Table
         </a>
       </div>
+
+
+
+      
       <div className="app__navbar-smallScreen">
         <GiHamburgerMenu
           color="#fff"
