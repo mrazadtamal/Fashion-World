@@ -28,3 +28,13 @@
   margin: 0 1rem;
   cursor: pointer;
 }
+
+.app__navbar-links li:hover {
+  color: var(--color-grey);
+}
+
+.app__navbar-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
