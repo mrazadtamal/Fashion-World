@@ -15,7 +15,7 @@ const Navbar = () => {
           }
           alt="app__logo"
         />
-        <h1>Azad</h1>
+        <h1>Fashion World</h1>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">

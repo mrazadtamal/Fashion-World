@@ -13,7 +13,8 @@
 }
 
 .app__navbar-logo h1 {
-  color: #fff;
+  color: var(--color-golden);
+  margin-left: 8px;
 }
 .app__navbar-logo img {
   width: 50px;
