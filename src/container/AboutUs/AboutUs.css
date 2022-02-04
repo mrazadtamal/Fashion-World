@@ -1,5 +1,6 @@
 .app__aboutus {
   position: relative;
+  height: 720px;
 }
 
 .app__aboutus-overlay {
@@ -8,7 +9,7 @@
 }
 
 .app__aboutus-overlay img {
-  width: 420px;
+  width: 680px;
   height: 400px;
   z-index: 0;
 }

@@ -10,7 +10,7 @@ const AboutUs = () => (
     <div className="app__aboutus-overlay flex__center">
       {/* <img
         src={
-          "https://res.cloudinary.com/abidazad/image/upload/v1643950833/pexels-jack-winbow-1457983_uwstxl.jpg"
+          "https://res.cloudinary.com/abidazad/image/upload/v1643951255/dark-2572874_1920_vvgfdx.jpg"
         }
         alt="G_overlay"
       /> */}

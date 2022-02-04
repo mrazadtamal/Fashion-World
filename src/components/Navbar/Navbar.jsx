@@ -38,7 +38,7 @@ const Navbar = () => {
         <a href="#login" className="p__opensans">
           SignIn
         </a>
-        <div></div>
+
         <a href="/" className="p__opensans">
           Registration
         </a>
