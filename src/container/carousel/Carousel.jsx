@@ -1,5 +1,3 @@
-import React, { useRef, useState } from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -16,76 +14,40 @@ export default function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1643949669/pexels-genor-chiomento-1805866_1_1_obhpxr.jpg"
-            }
-            alt=""
-          />
+          <div
+            style={{
+              height: "90vh",
+              width: "100%",
+              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1644085932/s-warley-venancio-2661536_1_1_g4luml.png)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1643950833/pexels-jack-winbow-1457983_uwstxl.jpg"
-            }
-            alt=""
-          />
+          <div
+            style={{
+              height: "100vh",
+              width: "100%",
+              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1643950833/pexels-jack-winbow-1457983_uwstxl.jpg)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075613/pexels-pixabay-206434_1_se55tg.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075618/pexels-noelle-otto-906002_1_llisea.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075613/pexels-andrea-piacquadio-839011_3_smjft9.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075610/pexels-andrea-piacquadio-972995_1_vduf5t.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075609/pexels-pixabay-372042_1_v1a6ar.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1644075608/pexels-manjeet-singh-yadav-1162983_1_h3mff3.jpg"
-            }
-            alt=""
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            src={
-              "https://res.cloudinary.com/abidazad/image/upload/v1643949669/pexels-genor-chiomento-1805866_1_1_obhpxr.jpg"
-            }
-            alt=""
-          />
+          <div
+            style={{
+              height: "100vh",
+              width: "100%",
+              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1644075613/pexels-pixabay-206434_1_se55tg.jpg)`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
         </SwiperSlide>
       </Swiper>
     </>
