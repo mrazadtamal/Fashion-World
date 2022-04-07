@@ -1,53 +1,56 @@
+import React, { useRef, useState } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
-import SwiperCore, { Autoplay } from "swiper";
+import "swiper/css/navigation";
 
 import "./carousel.css";
-SwiperCore.use([Autoplay]);
-export default function Carousel() {
+
+import { Navigation, Autoplay } from "swiper";
+
+export default function App() {
   return (
     <>
       <Swiper
-        loop={true}
-        autoplay={{ delay: 2000, disableOnInteraction: false }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Navigation, Autoplay]}
+        rewind={true}
+        navigation={true}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div
-            style={{
-              height: "90vh",
-              width: "100%",
-              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1644085932/s-warley-venancio-2661536_1_1_g4luml.png)`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          ></div>
+          <img
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649346991/2022/young-man_ew0ar1.jpg"
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div
-            style={{
-              height: "100vh",
-              width: "100%",
-              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1643950833/pexels-jack-winbow-1457983_uwstxl.jpg)`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          ></div>
+          <img
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649346991/2022/ellow_uly0kw.jpg"
+            alt=""
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div
-            style={{
-              height: "100vh",
-              width: "100%",
-              backgroundImage: `url(https://res.cloudinary.com/abidazad/image/upload/v1644075613/pexels-pixabay-206434_1_se55tg.jpg)`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          ></div>
+          <img
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649346991/2022/okay-gesture_nnxraw.jpg"
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649346990/2022/ng-stylish-young-man_1_hsmfw6.jpg"
+            alt=""
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src="https://res.cloudinary.com/abidazad/image/upload/v1649346991/2022/man-posing_z9kmdv.jpg"
+            alt=""
+          />
         </SwiperSlide>
       </Swiper>
     </>

@@ -12,7 +12,7 @@ const Header = () => (
         quis nesciunt praesentium saepe facilis nihil reprehenderit quisquam
       </p>
       <button type="button" className="custom__button">
-        Explore Menu
+        Explore More
       </button>
     </div>
 

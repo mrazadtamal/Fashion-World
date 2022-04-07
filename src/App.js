@@ -18,8 +18,8 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
-    <AboutUs />
     <Carousel />
+    <AboutUs />
     <Chef />
     <Intro />
     <Laurels />
