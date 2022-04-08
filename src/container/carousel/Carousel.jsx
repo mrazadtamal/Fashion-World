@@ -16,10 +16,26 @@ export default function App() {
   return (
     <>
       <Swiper
-        slidesPerView={3}
         spaceBetween={30}
-        slidesPerGroup={3}
-        loop={[true]}
+        breakpoints={{
+          420: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
