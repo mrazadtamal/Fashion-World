@@ -8,7 +8,7 @@ const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
       <img
-        src="https://res.cloudinary.com/abidazad/image/upload/v1649346991/2022/man-posing_z9kmdv.jpg"
+        src="https://res.cloudinary.com/abidazad/image/upload/v1649356930/2022/stylish-916502_1280_zm7vqc.jpg"
         alt="chef_image"
       />
     </div>

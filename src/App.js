@@ -18,7 +18,7 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
-    {/* <Carousel /> */}
+    <Carousel />
     <AboutUs />
     <Chef />
     <Laurels />
