@@ -56,24 +56,20 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: "",
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Production Services",
+    subtitle: "placeholder text commonly used to demonstrate ",
   },
   {
-    imgUrl: "",
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Design Services ",
+    subtitle: "placeholder text commonly used to demonstrate ",
   },
   {
-    imgUrl: "",
-    title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Fashion PR Services",
+    subtitle: "placeholder text commonly used to demonstrate ",
   },
   {
-    imgUrl: "",
-    title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Factory Inspection Services",
+    subtitle: "placeholder text commonly used to demonstrate ",
   },
 ];
 
