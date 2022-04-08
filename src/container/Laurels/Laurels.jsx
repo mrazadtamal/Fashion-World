@@ -3,7 +3,7 @@ import React from "react";
 import { data } from "../../constants";
 import "./Laurels.css";
 
-const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
+const AwardCard = ({ award: { title, subtitle } }) => (
   <div className="app__laurels_awards-card">
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: "#DCCA87" }}>
@@ -16,7 +16,7 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 
 const Laurels = () => {
   return (
-    <div className="app__bg app__wrapper section__padding" id="awards">
+    <div className="app__bg app__wrapper section__padding" id="service">
       <div className="app__wrapper_info">
         <h1 className="headtext__cormorant">Our Service</h1>
 

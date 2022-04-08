@@ -24,18 +24,16 @@ const Navbar = () => {
         <li className="p__opensans">
           <a href="#about">About</a>
         </li>
+
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#awards">Awards</a>
+          <a href="#service">Our Service</a>
         </li>
         <li className="p__opensans">
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
+        <a href="/" className="p__opensans">
           SignIn
         </a>
 
@@ -68,14 +66,10 @@ const Navbar = () => {
                   About
                 </a>
               </li>
+
               <li>
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
-                  Menu
-                </a>
-              </li>
-              <li>
-                <a href="#awards" onClick={() => setToggleMenu(false)}>
-                  Awards
+                <a href="#service" onClick={() => setToggleMenu(false)}>
+                  Our Service
                 </a>
               </li>
               <li>
