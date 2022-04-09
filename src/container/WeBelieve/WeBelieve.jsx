@@ -2,9 +2,9 @@ import React from "react";
 
 import { SubHeading } from "../../components";
 
-import "./Chef.css";
+import "./WeBelieve.css";
 
-const Chef = () => (
+const WeBelieve = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
       <img
@@ -32,4 +32,4 @@ const Chef = () => (
   </div>
 );
 
-export default Chef;
+export default WeBelieve;

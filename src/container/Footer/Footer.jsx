@@ -1,15 +1,10 @@
 import React from "react";
-import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-
-import { FooterOverlay, Newsletter } from "../../components";
+import { FiFacebook, FiTwitter, FiInstagram, FiGithub } from "react-icons/fi";
 
 import "./Footer.css";
 
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
-    <FooterOverlay />
-    <Newsletter />
-
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">CONTACT US</h1>
@@ -31,6 +26,7 @@ const Footer = () => (
           <FiFacebook />
           <FiTwitter />
           <FiInstagram />
+          <FiGithub />
         </div>
       </div>
 

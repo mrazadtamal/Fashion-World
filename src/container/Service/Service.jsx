@@ -1,9 +1,9 @@
 import React from "react";
 
 import { data } from "../../constants";
-import "./Laurels.css";
+import "./Service.css";
 
-const AwardCard = ({ award: { title, subtitle } }) => (
+const ServiceCard = ({ award: { title, subtitle } }) => (
   <div className="app__laurels_awards-card">
     <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: "#DCCA87" }}>
@@ -14,7 +14,7 @@ const AwardCard = ({ award: { title, subtitle } }) => (
   </div>
 );
 
-const Laurels = () => {
+const Service = () => {
   return (
     <div className="app__bg app__wrapper section__padding" id="service">
       <div className="app__wrapper_info">
@@ -22,7 +22,7 @@ const Laurels = () => {
 
         <div className="app__laurels_awards">
           {data.awards.map((award) => (
-            <AwardCard award={award} key={award.title} />
+            <ServiceCard award={award} key={award.title} />
           ))}
         </div>
       </div>
@@ -37,4 +37,4 @@ const Laurels = () => {
   );
 };
 
-export default Laurels;
+export default Service;

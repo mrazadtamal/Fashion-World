@@ -2,14 +2,13 @@ import React from "react";
 
 import {
   AboutUs,
-  Chef,
   FindUs,
   Footer,
   Gallery,
   Header,
-  Intro,
-  Laurels,
+  Service,
   Carousel,
+  WeBelieve,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -20,8 +19,8 @@ const App = () => (
     <Header />
     <Carousel />
     <AboutUs />
-    <Chef />
-    <Laurels />
+    <WeBelieve />
+    <Service />
     <Gallery />
     <FindUs />
     <Footer />

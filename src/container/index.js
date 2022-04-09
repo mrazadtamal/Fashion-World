@@ -1,21 +1,19 @@
 import AboutUs from "./AboutUs/AboutUs";
-import Chef from "./Chef/Chef";
 import FindUs from "./Findus/FindUs";
 import Footer from "./Footer/Footer";
 import Gallery from "./Gallery/Gallery";
 import Header from "./Header/Header";
-import Intro from "./Intro/Intro";
-import Laurels from "./Laurels/Laurels";
 import Carousel from "./carousel/Carousel";
+import WeBelieve from "./WeBelieve/WeBelieve";
+import Service from "./Service/Service";
 
 export {
   AboutUs,
-  Chef,
+  WeBelieve,
   FindUs,
   Footer,
   Gallery,
   Header,
-  Intro,
-  Laurels,
+  Service,
   Carousel,
 };
